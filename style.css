@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    font-family: "Roboto", "Sans-serif";
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.container-one {
+    padding: 0 180px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.website-intro {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-one p {
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 25px;
+}
