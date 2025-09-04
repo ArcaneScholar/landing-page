@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    font-family: 'Roboto', 'Sans-serif';  
 }
 
 *, *::before, *::after {
@@ -46,6 +45,9 @@ a, a:visited {
     margin-bottom: 70px;
 }
 
+.logo {
+    color: #f9faf8;
+}
 .website-intro {
     color: #f9faf8;
     font-size: 48px;
