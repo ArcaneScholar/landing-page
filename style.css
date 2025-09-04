@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: "Roboto", "Sans-serif";
+    font-family: 'Roboto', 'Sans-serif';  
 }
 
 *, *::before, *::after {
@@ -30,13 +30,13 @@ a, a:visited {
 
 .container-one {
     padding: 0 180px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background-color: #1f2937;
 }
 
 .introduction {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
@@ -47,12 +47,30 @@ a, a:visited {
 }
 
 .website-intro {
+    color: #f9faf8;
     font-size: 48px;
     margin: 0;
 }
 
 .hero-one p {
+    color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero-two{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-two img {
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.hero {
+    flex: 1;
 }
 
 button {
@@ -61,4 +79,66 @@ button {
     background-color: #3882f6;
     border: 0;
     border-radius: 25px;
+}
+
+
+/* Second Portion */
+
+.container-two {
+    padding: 0 180px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-two h2 {
+    font-size: 40px;
+}
+
+.tarot-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.tarot-container .info{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.member {
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 15px;
+
+}
+
+/* container 3 */
+
+.container-three {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+    font-size: 30px;
+}
+
+.quote {
+    font-style: italic;
+}
+.author{
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color:#e5e7eb
 }
